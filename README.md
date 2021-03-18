@@ -1,5 +1,5 @@
 # Brandiddle
-![Brandiddle Logo](/images/logo.png)
+![Brandiddle Logo](/src/images/logo.png)
 
 ## About this project
 
