@@ -1,12 +1,21 @@
-<?php
+<?pnclude( "Constants.php" );
 
-class Constants
-{
-  const USERNAME = "admin";
-  const HOST = "database-2.c8iitjo1ewza.us-east-1.rds.amazonaws.com";
-  const DATABASE = "brandiddle";
-  const PASSWORD = "i5oVfsaodj1Y16b7rAcv";
-  //const APITOKEN = "pk.5bcbf51054252b10361ca7e29ea82df8";
-}
+ $username = Constants::"jahart"; //  "YOUR USERNAME HERE";
+ $password = Constants::1753604; // "YOUR PASSWORD HERE";
+ $host = Constants::"cs-database.cs.loyola.edu"; // "cs-database.cs.loyola.edu";
+ $database = Constants::"brandiddle"; // "YOUR USERNAME HERE";
+
+ $mysqli = new mysqli( $host, $username, $password, $database );
+ if( !$mysqli )
+ {
+    die( "Could not connect: ".mysql_error( ) );
+	    echo( "Unsuccessful connection" );
+	     }
+ else
+ {
+         echo( "Successfully connected<br>" );
+ }
+	 //            
+	 //            
 
 ?>
