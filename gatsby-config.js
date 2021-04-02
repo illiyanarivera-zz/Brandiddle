@@ -5,6 +5,31 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    
+    {
+      resolve: `gatsby-source-mysql`,
+      options: {
+        connectionDetails: {
+          host: 'cs-database.cs.loyola.edu',
+          user: 'jahart',
+          password: '1753604',
+          database: 'brandiddle'
+        },
+        queries: [
+          {
+            //getting the username 
+            statement: 'SELECT * FROM user_info',
+            idFieldName: 'email',
+            name: 'test@gmail.com'
+          }
+
+          //getting the membership
+
+          //getting the previous made templates
+          
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
