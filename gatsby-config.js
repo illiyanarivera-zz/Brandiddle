@@ -5,7 +5,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    
+    /*
     {
       resolve: `gatsby-source-mysql`,
       options: {
@@ -36,7 +36,7 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images/`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
