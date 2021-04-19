@@ -1,6 +1,6 @@
 # Brandiddle
 
-## About this project
+## Overview of the Project
 
 - Client: Wayne Pelletier → Resonant Pixel Co.
 
@@ -8,7 +8,6 @@
   - Businesses need good recognizable brands, but designers cost money 💰💰💰
 - What to do?
   - Wants to create a web application for his clients to use that will help them brand themselves in an affordable way.
-- Fun Fact: Brandiddle → brand + paradiddle
 
 ### Software Engineering Background
 
@@ -35,8 +34,32 @@
 - 3rd party payment processor
 - Copyright/ Patent Registering
 
-## Progress:
+## Implimented Features:
 
-- currently a skeleton website of where each element will be
 - contains a secure log in and sign out
-- is connected to the database
+- connected to a database
+- upload image
+- create a template page
+
+## NonImplimented Features:
+
+- stripe
+- edit profile
+
+## Dependencies:
+
+- Amplify [AWS]:
+
+- Node:
+
+- Gatsby:
+
+## Instructions for Compilation:
+
+- to compile code enter into the terminal
+  $ cd Brandiddle
+  $ gatsby develop
+
+## Instructions for Running:
+
+- enter https://localhost:8000 into your web browser of choice
