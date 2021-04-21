@@ -54,7 +54,6 @@
   - open your terminal
   - Go to this site & watch the video for set up instructions: https://docs.amplify.aws/cli/start/install#option-1-watch-the-video-guide
   - When I say run I mean type the following words into the terminal
-  - run: amplify init
   - Now run:  amplify init
   - The following are answers to the questions it will ask
     -  Y
