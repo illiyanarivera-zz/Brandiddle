@@ -45,6 +45,8 @@
 
 - stripe
 - edit profile
+- save template into database
+- make template downloadable
 
 ## Dependencies:
 
