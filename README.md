@@ -87,12 +87,25 @@
    - run: amplify push
    - We know this is a lot, so if you come across any issues, feel free to email us!
 
-- Node:
-
-- Gatsby:
-
+- Node.js:
+  --  Download Node.js Installer
+    --- In a web browser, navigate to https://nodejs.org/en/download/.
+  --  Once the installer finishes downloading, launch it.
+  --  The system will ask if you want to run the software – click Run.
+  --  You will be welcomed to the Node.js - click Next
+  --  On the next screen, review the license agreement. Click Next if you agree to the terms and install the software.
+  --  The installer will prompt you for the installation location. Leave the default location, unless you have a specific need to install it somewhere else – then click Next.
+  --  Finally, click the Install button to run the installer. When it finishes, click Finish.
+  --  Verigy the installation with your terminal
+    --  $node –v
+- Gatsby: from https://www.gatsbyjs.com/docs/tutorial/part-zero/
+  --  Now that Node.js is installed, you must use it to install gatsby to run the website.
+  --  $npm install -g gatsby-cli
+    --  NOTE: $gatsby --help
+      ---   can be used to understand other gatsby commands. 
+      
 ## Instructions for Compilation:
-
+- NOTE: Gatsby must be installed
 - to compile code enter into the terminal
   $ cd Brandiddle
   $ gatsby develop
