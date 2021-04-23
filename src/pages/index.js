@@ -6,8 +6,8 @@ import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
 
 import { Helmet } from 'react-helmet';
 import awsconfig from '../aws-exports';
-import App from '../components/App';
-import { headData } from '../mock/data';
+import App from '../components/App.jsx';
+import { headData } from '../mock/data.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
