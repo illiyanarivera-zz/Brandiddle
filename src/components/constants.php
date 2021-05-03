@@ -1,7 +1,8 @@
-<?pnclude( "Constants.php" );
+<?php
 
- $username = Constants::"jahart"; //  "YOUR USERNAME HERE";
- $password = Constants::1753604; // "YOUR PASSWORD HERE";
+ //$username = Constants::"jahart"; //  "YOUR USERNAME HERE";
+ //$password = Constants::1753604; // "YOUR PASSWORD HERE";
+ /*
  $host = Constants::"cs-database.cs.loyola.edu"; // "cs-database.cs.loyola.edu";
  $database = Constants::"brandiddle"; // "YOUR USERNAME HERE";
 
@@ -17,5 +18,5 @@
  }
 	 //            
 	 //            
-
+*/
 ?>
