@@ -1,0 +1,49 @@
+/* this file holds the styling for create.html file*/
+
+  body {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  
+  h2 {
+    background-color: #b8e481;
+    color: #526dbe;
+    text-align: center;
+  }
+
+  .btn {
+    border: 2px solid #b8e481;
+    background-color: #b8e481;
+    color: #526dbe;
+    padding: 14px 28px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    }
+
+  .button {
+    background-color:white; 
+    color:#b8e481;
+    border: 2px solid #b8e481;
+  }
+
+  .button:hover {
+    background-color:#b8e481;
+    color: white;
+  
+  }
+
+
+  @font-face {
+    font-family: 'Antonio'; /* Define the custom font name */
+    src:  url ("https://fonts.googleapis.com/css?family=Sofia");   
+    /* Define where the font can be downloaded */
+    font-display: fallback; 
+    /* Define how the browser behaves during download */
+    font-family: 'Original Surfer', cursive;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');

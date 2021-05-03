@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!--  fonts to choose from document -->
+	<link rel="stylesheet" href="create.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antonio|codaCaption|Roboto|Poppins|playfairDisplay">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Coda+Caption:wght@800&family=Roboto:wght@100&display=swap" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Antonio:wght@600&family=Oswald&family=Roboto:wght@100family=Arsenal&family=Capriola&display=swap">
+  </head>
+
+
+
+<body> 
+	<h2> Select and enter the details to generate a template</h2>
+<form action="create.php" method="POST" enctype="multipart/form-data" >
+	<div class="form-group">
+		<br>
+		<br>
+	<center> 
+	<label for="Bname">Enter a Brand Name:</label>
+    <input type="text" class="form-control" id="bname" name="bname"  style="width:300px" style="text: center"><br><br>
+
+
+	<label for="tagline">Enter your Mission Statement: </label>
+ 	<textarea class="form-control" id="tagline" name="mStatement" cols="50" rows="4" style="width:300px"> </textarea> <br><br>
+
+	
+
+	<label for="fontName"> Choose a font:</label>
+	<select id="input-font" name="input-font" class="input" onchange="changeFontStyle (this);">
+	<option value="blank" selected="selected">  </option>
+	  <option value="Antonio"> Antonio </option>
+	  <option value="Roboto" >Roboto</option>
+	  <option value="Poppins" >Poppins</option>
+	  <option value="Acme" > Acme </option>
+	  <option value="Oswald" >Oswald</option>
+	  <option value="Anton" > Anton </option>
+	  <option value="Arsenal" > Arsenal </option>
+	  <option value="Capriola" > Capriola</option>
+	  
+
+	</select>
+
+	<div id="output-text">
+        <h1 style="color:#526dbe">
+			The quick brown fox jumps over the lazy dog
+        </h1>
+    </div>
+
+	<script>
+        var changeFontStyle = function (font) {
+            document.getElementById(
+                "output-text").style.fontFamily
+                        = font.value;
+        }
+
+		var data = value_to_send
+		window.location.href="newTemplate.htm?data" + data
+    </script>
+
+
+	<br>
+<!--  
+	<label for="icons">Choose an icon:</label>
+
+	<select name="icon" id="icon">
+	  <option value="Face">Face</option>
+	  <option value="Pet">Pet</option>
+	  <option value="Graph">Graph</option>
+	  <option value="Bank">Bank</option>
+	  <option value="Store">Store</option>
+	</select>
+ -->
+	<br> 
+	<label for="colorpicker">Enter the primary color to use:</label>
+   	<input type="color" id="color1" name="color1" value="#0000ff">
+	<br>
+
+	<label for="colorpicker">Enter the secondary color to use:</label>
+   	<input type="color" id="color2" name="color2" value="#0000ff">
+
+	<br> <br>
+	<label for="image">Upload your logo here: </label>
+	<input type="file" id="img" name="img" >
+
+	<!-- accept="image/*" -->
+</div>
+</body>
+<button type="submit" class="btn button" value="Upload"> Submit </button>
+	</center>
+</form>
+
+
+
+</html>
+
+
