@@ -1,0 +1,10 @@
+
+ type userInfo @model @auth(rules: [{ allow: owner }])
+ {
+   id: ID!
+   brandName: String!
+   missionStatement: String
+   font: String!
+   color1: String
+   color2: String
+ }

@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "brandiddleAPI",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authbrandiddlea105830f",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-brandiddle-dev-234510-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/56ac19b7e055fa44228ee47e18899cfa898bb266"
+}
