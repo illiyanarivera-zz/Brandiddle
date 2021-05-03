@@ -1,0 +1,7 @@
+
+ type userInfo @model
+ {
+   id: ID!
+   name: String!
+   description: String
+ }
